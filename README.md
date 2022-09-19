@@ -1,4 +1,4 @@
-# Cypress Automation project 
+# Cypress Automation Test 
 
 The test script performs the following steps
 1.	Accesses wiki page: https://en.wikipedia.org/wiki/The_Beatles and assert
