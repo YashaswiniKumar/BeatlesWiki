@@ -1,0 +1,22 @@
+{
+  "name": "beatleswiki",
+  "version": "1.0.0",
+  "description": "Automation Task on Beatles Wiki",
+  "main": "index.js",
+  "scripts": {
+    "cy:AutomationTask": "npx cypress run --spec cypress/Integration/Tests/AutomationTask.spec.js --headed --browser chrome"
+  },
+  "author": "yashaswini",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.5.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.74.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}
